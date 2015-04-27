@@ -1,0 +1,254 @@
+
+
+.question_section{
+	margin-bottom:30px;
+	
+}
+.answer_section{
+	
+	margin-bottom:30px;
+	margin-left:30px;
+	padding:20px;
+	width:80%;
+}
+.comment_section{
+	margin-bottom:20px;
+	margin-left:50px;
+	padding:20px;
+	width:80%;
+	margin-top:30px;
+}
+.ans{
+	border-bottom: rgba(119, 119, 100, 0.69) solid 1px;
+}
+.question_and_answer{
+	border-bottom: rgba(119, 119, 100, 0.69) solid 1px;
+}
+
+.user-img{
+	width: 35px;
+	height:35px;
+	border: rgba(115, 115, 104, 0.69) solid 1px;
+	border-radius: 4px;
+	float:left;
+}
+.user_info{
+	margin: 10px;
+	height: 30px;
+	padding: 5px;
+	width:80%;
+}
+.about{
+	float:left;
+	float: left;
+	margin-left: 13px;
+}
+.name{
+	display:block;
+	color: #333;
+	font-weight: bold;
+	position: relative;
+	z-index: 2;
+	cursor:pointer;
+}
+.name:hover{
+	color: rgba(56, 54, 52, 0.5);
+}
+.status{
+	display:block;
+	display: block;
+	font-size: 14px;
+	color: rgba(57, 51, 51, 0.78);
+	font-weight: 400;
+}
+
+.time_date{
+	float: right;
+	margin-right: 50px;
+}
+.date{
+	display:block;
+	font-size: 16px;
+	color: rgba(43, 47, 46, 0.69);
+}
+.time{
+	font-size: 13px;
+color: rgba(54, 68, 63, 0.63);
+}
+
+.q_content{
+	font-size: 20px;
+	color: #333;
+	letter-spacing: -0.5px;
+	line-height: 1.25;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 7px;
+}
+
+.question_body{
+	width:75%;
+	margin-bottom:10px;
+}
+.followed:before{
+	content:"Followed" !important;
+	color: rgba(233, 45, 45, 0.82);
+}
+.likes{
+	font-size: 16px;
+	font-weight: bold;
+	color: rgba(23, 22, 22, 0.8);
+	border: rgba(47, 51, 47, 0.73) solid 1px;
+	padding: 4px;
+	border-radius: 6px;
+	background-color: rgb(185, 224, 226);
+	position:relative;
+	padding-left: 32px;
+	float:left;
+}
+
+.logo:before{
+	content: "\f087";
+	font-family: FontAwesome;
+	font-style: normal;
+	font-size: 23px;
+	cursor: pointer;
+	opacity: 0.70;
+	margin-right:4px;
+	border-right: rgba(73, 70, 73, 0.7) solid 1px;	
+	position:absolute;
+	top: 0px;
+	left: 2px;
+	padding-right: 3px;
+	height:25px;
+	padding-top: 2px;
+}
+.logo:hover{
+	color: red;
+}
+
+.liked{
+	color:red;
+}
+
+.ques_info{
+	height: 30px;
+	margin-top: 30px;
+	margin-left: 50px;
+	margin-bottom: 15px;
+}
+.foll:before{
+	content: "Follow";
+	font-style: normal;
+	font-size: 17px;
+	cursor: pointer;
+	border-right: rgba(73, 70, 73, 0.7) solid 1px;
+	position: absolute;
+	top: 0px;
+	left: 2px;
+	padding-right: 10px;
+	height: 25px;
+	padding-top: 2px;
+}
+.foll:hover{
+	color: rgba(233, 45, 45, 0.82);
+}
+.follow{
+	font-size: 16px;
+	font-weight: bold;
+	color: rgba(23, 22, 22, 0.8);
+	border: rgba(47, 51, 47, 0.73) solid 1px;
+	padding: 4px;
+	border-radius: 6px;
+	background-color: rgb(185, 224, 226);
+	position: relative;
+	padding-left: 85px;
+	float: left;
+	width: 18px;
+	margin-left: 50px;
+}
+
+.show_ans{
+	margin-left: 85px;
+	display: inline;
+}
+.total_ans{
+	font-size: 17px;
+	font-weight: bold;
+	color: rgba(17, 16, 16, 0.76);
+	cursor: pointer;
+	position:relative;
+}
+
+.total_com{
+	font-size: 17px;
+	font-weight: bold;
+	color: rgba(17, 16, 16, 0.76);
+	cursor: pointer;
+	position:relative;
+}
+.down:before{
+	content:"\f103";
+	font-family:FontAwesome;
+	font-style:normal;
+	position:absolute;
+	right:-15px;
+	top:3px;
+}
+.total_ans:hover,.total_com:hover{
+	color: rgba(244, 42, 42, 0.94);
+}
+
+.answer_body{
+		margin-left: 60px;
+		margin-top: 30px;
+		width: 90%;
+}
+.a_content{
+		font-size: 17px;
+		color: rgba(46, 45, 45, 0.95);
+		font-family: Georgia,Times,"Times New Roman",serif;
+}
+
+.comment{
+	border-bottom: rgba(119, 119, 100, 0.69) solid 1px;
+	width: 415px;
+}
+.name_c{
+	display:inline;
+	color: #333;
+	position: relative;
+	z-index: 2;
+	cursor:pointer;
+}
+.date_c{
+	display:inline;
+	font-size: 12px;
+	color: rgba(43, 47, 46, 0.69);
+}
+.time_date_c{
+	margin-left:25px;
+	display:inline;
+}
+.user_info_c{
+	height: 30px;
+	width:80%;
+}	
+
+.comment_body{
+		margin-bottom: 13px;
+		margin-left: 32px;
+		width: 70%;
+}
+		
+.c_content{
+		font-size: 15px;
+color: rgba(6, 6, 6, 0.82);
+}
+
+.q_detail{
+	padding-left: 75px;
+font-size: 18px;
+padding-left: 40px;
+color: rgba(54, 56, 57, 0.77);
+}

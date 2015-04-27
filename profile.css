@@ -1,0 +1,136 @@
+.profile_back{
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	z-index: 5000;
+	background-color: rgba(102, 79, 79, 0.49);
+	top: 0px;
+	left: 0px;
+	right: 0px;
+}
+
+.my_profile{
+	position: relative;
+	width: 50%;
+	height: 50%;
+	margin-left: 344px;
+	margin-top: 100px;
+	padding: 30px;
+	background-color: rgba(193, 187, 174, 0.97);
+	border-radius: 10px;
+	border: rgba(82, 90, 89, 0.73) solid 1px;
+	box-shadow: rgba(62, 71, 80, 0.87) 8px 10px 9px;
+	overflow:auto;
+	
+}
+
+.profile_pic{
+	background-color: rgba(105, 90, 90, 0.68);
+	height: 140px;
+	width:140px;
+	border-radius: 8px;
+	margin-left: 10px;
+	position: relative;
+	border: black dotted 1px;
+}
+
+.edit_pic:before{
+	content: "\f044";
+	font-family: FontAwesome;
+	font-style: normal;
+	position: absolute;
+	right: 5px;
+	top: 3px;
+	cursor: pointer;
+	font-size: 20px;
+	opacity: 0.5;
+}
+.edit_pic:hover{
+	color:red;
+}
+.profile_pic_back{
+	width: 150px;
+position: relative;
+float:left;
+
+}
+
+.your_info{
+	float:left;
+	margin-left:80px;
+}
+.your_name{
+	padding-left: 86px;
+	font-size: 23px;
+	color: rgba(40, 39, 39, 0.73);
+	border-bottom: rgba(47, 43, 44, 0.22) solid 1px;
+	font-variant: small-caps;
+}
+.update_status{
+		width: 360px;
+		height: 41px;
+		font-size: 15px;
+		border-radius: 3px;
+		border: rgb(132, 127, 132) solid 1px;
+		padding-left: 28px;
+		color: rgba(33, 34, 34, 0.76);
+}
+.update_status:focus{
+	border-color: #66afe9;
+	outline: 0;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+}
+.my_status{
+	position:relative;
+}
+.st_im:before{
+	position: absolute;
+	font-family: fontawesome;
+	content: "\f040";
+	font-style: normal;
+	top: 0px;
+	left: 7px;
+	border-right: rgb(148, 148, 148) solid 1px;
+	height: 68%;
+	padding-top: 12px;
+	padding-right: 3px;
+	color: rgba(30, 23, 30, 0.61);
+	cursor:pointer;
+}
+
+.close_profile:before{
+	font-family:FontAwesome;
+	font-style:normal;
+	font-weight:bold;
+	position:absolute;
+	right:8px;
+	top:8px;
+	content:"\f00d";
+	
+	cursor:pointer;}
+.close_profile:hover{
+	
+	color:red;
+}
+
+.save_profile{
+	position: absolute;
+	bottom: 8px;
+	right: 40px;
+	width: 100px;
+	height: 30px;
+	font-size: 17px;
+	background-color: rgba(93, 123, 175, 0.64);
+	border: rgba(132, 120, 120, 0.73) solid 1px;
+	border-radius: 5px;
+	color: white;
+}
+.save_profile:hover{
+	cursor:pointer;
+	background-color:rgba(103, 133, 176, 0.84);
+}
+.edit_profile{
+	position:relative;
+	height: 215px;
+border-bottom: rgb(161, 159, 159) solid 1px;
+}
